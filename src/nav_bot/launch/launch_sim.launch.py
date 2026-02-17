@@ -29,6 +29,19 @@ def generate_launch_description():
         launch_arguments={'use_sim_time': 'true', 'use_ros2_control': 'true'}.items()
     )
 
+    joystick = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(pkg_share, 'launch', 'joystick.launch.py')),
+        launch_arguments={'use_sim_time': 'true'}.items()
+    )
+
+    twist_mux_params = os.path.join(pkg_share, 'config', 'twist_mux.yaml')
+    twist_mux_node = Node(
+        package='twist_mux',
+        executable='twist_mux',
+        parameters=[twist_mux_params, {'use_sim_time': use_sim_time}],
+        remappings=[('/cmd_vel_out', '/diff_cont/cmd_vel_unstamped')]
+    )
+
     # 4. Include the Gazebo Classic simulation launch file
     # 'gazebo.launch.py' launches both the server (gzserver) and client (gzclient)
     gazebo = IncludeLaunchDescription(
@@ -101,4 +114,6 @@ def generate_launch_description():
     rsp,
     joint_broad_spawner,
     diff_drive_spawner,
+    joystick,
+    twist_mux_node,
     ])

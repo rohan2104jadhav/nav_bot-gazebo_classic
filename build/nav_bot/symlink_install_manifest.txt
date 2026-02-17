@@ -1,7 +1,9 @@
 /home/rohan/articubot/install/nav_bot/share/nav_bot/config/config.rviz
 /home/rohan/articubot/install/nav_bot/share/nav_bot/config/drive_bot.rviz
+/home/rohan/articubot/install/nav_bot/share/nav_bot/config/joystick.yaml
 /home/rohan/articubot/install/nav_bot/share/nav_bot/config/mapper_params_online_async.yaml
 /home/rohan/articubot/install/nav_bot/share/nav_bot/config/my_controllers.yaml
+/home/rohan/articubot/install/nav_bot/share/nav_bot/config/twist_mux.yaml
 /home/rohan/articubot/install/nav_bot/share/nav_bot/description/camera.xacro
 /home/rohan/articubot/install/nav_bot/share/nav_bot/description/depth_camera.xacro
 /home/rohan/articubot/install/nav_bot/share/nav_bot/description/gazebo_control.xacro
@@ -10,6 +12,7 @@
 /home/rohan/articubot/install/nav_bot/share/nav_bot/description/robot.urdf.xacro
 /home/rohan/articubot/install/nav_bot/share/nav_bot/description/robot_core.xacro
 /home/rohan/articubot/install/nav_bot/share/nav_bot/description/ros2_control.xacro
+/home/rohan/articubot/install/nav_bot/share/nav_bot/launch/joystick.launch.py
 /home/rohan/articubot/install/nav_bot/share/nav_bot/launch/launch_sim.launch.py
 /home/rohan/articubot/install/nav_bot/share/nav_bot/launch/rsp.launch.py
 /home/rohan/articubot/install/nav_bot/share/nav_bot/worlds/empty.world
