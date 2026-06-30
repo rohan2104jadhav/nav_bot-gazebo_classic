@@ -1,1 +1,1 @@
-/home/rohan/articubot/install/nav_bot:/opt/ros/humble
+/home/rohan/articubot/install/nav_bot:/home/rohan/px4/ros2_ws/install/translation_node:/home/rohan/px4/ros2_ws/install/px4_ros_com:/home/rohan/px4/ros2_ws/install/px4_offboard:/home/rohan/px4/ros2_ws/install/px4_msgs_old:/home/rohan/px4/ros2_ws/install/px4_msgs:/home/rohan/px4/ros2_ws/install/px4:/home/rohan/px4/ros2_ws/install/com_bridge:/opt/ros/humble

@@ -1,0 +1,10 @@
+[0.027s] Invoking command in '/home/rohan/articubot/build/nav_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohan/px4/ros2_ws/install/px4_offboard:/home/rohan/px4/ros2_ws/install/com_bridge:/opt/ros/humble /usr/bin/cmake --build /home/rohan/articubot/build/nav_bot -- -j16 -l16
+[0.133s] Invoked command in '/home/rohan/articubot/build/nav_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohan/px4/ros2_ws/install/px4_offboard:/home/rohan/px4/ros2_ws/install/com_bridge:/opt/ros/humble /usr/bin/cmake --build /home/rohan/articubot/build/nav_bot -- -j16 -l16
+[0.160s] Invoking command in '/home/rohan/articubot/build/nav_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohan/px4/ros2_ws/install/px4_offboard:/home/rohan/px4/ros2_ws/install/com_bridge:/opt/ros/humble /usr/bin/cmake --install /home/rohan/articubot/build/nav_bot
+[0.184s] -- Install configuration: ""
+[0.184s] -- Up-to-date: /home/rohan/articubot/install/nav_bot/share/nav_bot/config
+[0.184s] -- Up-to-date: /home/rohan/articubot/install/nav_bot/share/nav_bot/description
+[0.184s] -- Up-to-date: /home/rohan/articubot/install/nav_bot/share/nav_bot/launch
+[0.184s] -- Up-to-date: /home/rohan/articubot/install/nav_bot/share/nav_bot/worlds
+[0.185s] -- Installing: /home/rohan/articubot/install/nav_bot/share/nav_bot/package.dsv
+[0.190s] Invoked command in '/home/rohan/articubot/build/nav_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohan/px4/ros2_ws/install/px4_offboard:/home/rohan/px4/ros2_ws/install/com_bridge:/opt/ros/humble /usr/bin/cmake --install /home/rohan/articubot/build/nav_bot
